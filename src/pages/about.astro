@@ -1,11 +1,13 @@
 ---
+import '../styles/global.css'
+
 const pageTitle = "About Me";
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Nicolas",
+  country: "Argentina",
+  occupation: "Web Developer",
+  hobbies: ["videogames", "movies", "running"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
@@ -28,7 +30,7 @@ const textCase = "uppercase";
 		<title>{pageTitle}</title>
     <style define:vars={{skillColor, fontWeight, textCase}}>
       h1 {
-        color: purple;
+        color: darkcyan;
         font-size: 4rem;
       }
       .skill {
